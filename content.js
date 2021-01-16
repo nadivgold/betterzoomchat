@@ -23,6 +23,8 @@ var t = {
   'SMOrc': 'https://static-cdn.jtvnw.net/emoticons/v1/52/1.0',
   'SwiftRage': 'https://static-cdn.jtvnw.net/emoticons/v1/34/1.0',
   'DansGame': 'https://static-cdn.jtvnw.net/emoticons/v1/33/1.0',
+  'VoteYea': 'https://static-cdn.jtvnw.net/emoticons/v1/106293/1.0',
+  'VoteNay': 'https://static-cdn.jtvnw.net/emoticons/v1/106294/1.0',
 }
 
 var b = {
@@ -68,6 +70,21 @@ var b = {
   'pepeDS': 'https://cdn.betterttv.net/emote/5b444de56b9160327d12534a/1x',
   'pressF': 'https://cdn.betterttv.net/emote/5c857788f779543bcdf37124/1x',
   'monkaTOS': 'https://cdn.betterttv.net/emote/5a7fd054b694db72eac253f4/1x',
+  'peepoHey': 'https://cdn.betterttv.net/emote/5c0e1a3c6c146e7be4ff5c0c/1x',
+  'widepeepoHappy': 'https://cdn.betterttv.net/emote/5e1a76dd8af14b5f1b438c04/1x',
+  'widepeepoSad': 'https://cdn.betterttv.net/emote/5ebd239bf0fb3f168c4b58f0/1x',
+  'monkaSTEER': 'https://cdn.betterttv.net/emote/5ed0fd17f54be95e2a835054/1x',
+  'Thonk': 'https://cdn.betterttv.net/emote/585231dd58af204561cd6036/1x',
+  'peepoShy': 'https://cdn.betterttv.net/emote/5eaa12a074046462f768344b/1x',
+  'NOPERS': 'https://cdn.betterttv.net/emote/5ec39a9db289582eef76f733/1x',
+  'NODDERS': 'https://cdn.betterttv.net/emote/5eadf40074046462f7687d0f/1x',
+  'popCat': 'https://cdn.betterttv.net/emote/5fa8f232eca18f6455c2b2e1/1x',
+  'PepoG': 'https://cdn.betterttv.net/emote/5d63e543375afb1da9a68a5a/1x',
+  'POGGIES': 'https://cdn.betterttv.net/emote/5b457bbd0485f43277cecac0/1x',
+  'DANKIES': 'https://cdn.betterttv.net/emote/5f92938a710f8302f0c8ee82/1x',
+  'peepoRun': 'https://cdn.betterttv.net/emote/5bc7ff14664a3b079648dd66/1x',
+  'ppHop': 'https://cdn.betterttv.net/emote/5a9578d6dcf3205f57ba294f/1x',
+  'ppOverheat': 'https://cdn.betterttv.net/emote/5b3e953a2c8a38720760c7f7/1x',
 }
 var f = {
   'Pog': 'https://cdn.frankerfacez.com/emoticon/210748/1',
