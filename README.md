@@ -1,1 +1,16 @@
+<<<<<<< HEAD
 # Better Zoom Chat
+=======
+![logo](https://raw.githubusercontent.com/nadivgold/betterzoomchat/main/bzc.png)
+# Better Zoom Chat
+
+BZC is a chrome extention that allows you to use some Twitch Emotes inside Zoom Meeting Group Chats. 
+
+Download the files and go to [chrome://extensions/](chrome://extensions/). 
+Enable developer mode and select 'Load Unpacked', then open the folder.
+
+Use the 'Launch Meeting' button in the extention rather than the normal blue one to take you to Zoom's web client.
+The last step is to start the replacement by clicking the 'Start' button. 
+
+Since I added emotes individually, not all of them are avaliable. The objects in `content.js` list all the currently supported emotes. Feel free to make a PR to add your favorites.
+>>>>>>> 4df0444705859446e5db80288452f89c9f271dee
