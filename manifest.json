@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+
+  "name": "Better Zoom Chat",
+  "description": "Add Twitch and BTTV emotes to in-the-browser Zoom chats.",
+  "version": "1.0",
+
+  "browser_action": {
+   "default_icon": "bzc.png",
+   "default_popup": "popup.html"
+  },
+  "permissions": [
+   "activeTab",
+   "storage",
+   "alarms"
+ ],
+ "content_scripts": [
+   {
+     "matches": [
+      "*://*.zoom.us/*"
+     ],
+     "js": ["content.js"]
+   }
+ ]
+}
