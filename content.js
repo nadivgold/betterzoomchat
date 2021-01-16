@@ -1,28 +1,28 @@
 var t = {
-  ':Kappa:': 'https://www.twitch.tv/creatorcamp/assets/uploads/kappa.png',
-  ':HeyGuys:': 'https://www.twitch.tv/creatorcamp/assets/uploads/unnamed.png',
-  ':LUL:': 'https://www.twitch.tv/creatorcamp/assets/uploads/lul.png',
-  ':CoolStoryBob:': 'https://www.twitch.tv/creatorcamp/assets/uploads/bob.png',
-  ':4Head:': 'https://www.twitch.tv/creatorcamp/assets/uploads/4head.png',
-  ':FrankerZ:': 'https://www.twitch.tv/creatorcamp/assets/uploads/frankerz.png',
-  ':Jebaited:': 'https://www.twitch.tv/creatorcamp/assets/uploads/jebaited.png',
-  ':PJSalt:': 'https://www.twitch.tv/creatorcamp/assets/uploads/salt.png',
-  ':NotLikeThis:': 'https://www.twitch.tv/creatorcamp/assets/uploads/notlikethis.png',
-  ':MrDestructoid:': 'https://static-cdn.jtvnw.net/emoticons/v1/28/1.0',
-  ':WutFace:': 'https://www.twitch.tv/creatorcamp/assets/uploads/wutface.png',
-  ':VoHiYo:': 'https://www.twitch.tv/creatorcamp/assets/uploads/vohiyo.png',
-  ':SeemsGood:': 'https://www.twitch.tv/creatorcamp/assets/uploads/seemsgood.png',
-  ':ResidentSleeper:': 'https://www.twitch.tv/creatorcamp/assets/uploads/resident-sleeper.png',
-  ':Kreygasm:': 'https://static-cdn.jtvnw.net/emoticons/v1/41/1.0',
-  ':TriHard:': 'https://static-cdn.jtvnw.net/emoticons/v1/120232/1.0',
-  ':RedCoat:': 'https://static-cdn.jtvnw.net/emoticons/v1/22/1.0',
-  ':chipsaKEK:': 'https://static-cdn.jtvnw.net/emoticons/v1/305010854/1.0',
-  ':nakoGalante:': 'https://static-cdn.jtvnw.net/emoticons/v1/302287630/1.0',
-  ':BabyRage:': 'https://static-cdn.jtvnw.net/emoticons/v1/22639/1.0',
-  ':BibleThump:': 'https://static-cdn.jtvnw.net/emoticons/v1/86/1.0',
-  ':SMOrc:': 'https://static-cdn.jtvnw.net/emoticons/v1/52/1.0',
-  ':SwiftRage:': 'https://static-cdn.jtvnw.net/emoticons/v1/34/1.0',
-  ':DansGame:': 'https://static-cdn.jtvnw.net/emoticons/v1/33/1.0',
+  'Kappa': 'https://www.twitch.tv/creatorcamp/assets/uploads/kappa.png',
+  'HeyGuys': 'https://www.twitch.tv/creatorcamp/assets/uploads/unnamed.png',
+  'LUL': 'https://www.twitch.tv/creatorcamp/assets/uploads/lul.png',
+  'CoolStoryBob': 'https://www.twitch.tv/creatorcamp/assets/uploads/bob.png',
+  '4Head': 'https://www.twitch.tv/creatorcamp/assets/uploads/4head.png',
+  'FrankerZ': 'https://www.twitch.tv/creatorcamp/assets/uploads/frankerz.png',
+  'Jebaited': 'https://www.twitch.tv/creatorcamp/assets/uploads/jebaited.png',
+  'PJSalt': 'https://www.twitch.tv/creatorcamp/assets/uploads/salt.png',
+  'NotLikeThis': 'https://www.twitch.tv/creatorcamp/assets/uploads/notlikethis.png',
+  'MrDestructoid': 'https://static-cdn.jtvnw.net/emoticons/v1/28/1.0',
+  'WutFace': 'https://www.twitch.tv/creatorcamp/assets/uploads/wutface.png',
+  'VoHiYo': 'https://www.twitch.tv/creatorcamp/assets/uploads/vohiyo.png',
+  'SeemsGood': 'https://www.twitch.tv/creatorcamp/assets/uploads/seemsgood.png',
+  'ResidentSleeper': 'https://www.twitch.tv/creatorcamp/assets/uploads/resident-sleeper.png',
+  'Kreygasm': 'https://static-cdn.jtvnw.net/emoticons/v1/41/1.0',
+  'TriHard': 'https://static-cdn.jtvnw.net/emoticons/v1/120232/1.0',
+  'RedCoat': 'https://static-cdn.jtvnw.net/emoticons/v1/22/1.0',
+  'chipsaKEK': 'https://static-cdn.jtvnw.net/emoticons/v1/305010854/1.0',
+  'nakoGalante': 'https://static-cdn.jtvnw.net/emoticons/v1/302287630/1.0',
+  'BabyRage': 'https://static-cdn.jtvnw.net/emoticons/v1/22639/1.0',
+  'BibleThump': 'https://static-cdn.jtvnw.net/emoticons/v1/86/1.0',
+  'SMOrc': 'https://static-cdn.jtvnw.net/emoticons/v1/52/1.0',
+  'SwiftRage': 'https://static-cdn.jtvnw.net/emoticons/v1/34/1.0',
+  'DansGame': 'https://static-cdn.jtvnw.net/emoticons/v1/33/1.0',
 }
 
 var b = {
@@ -114,7 +114,7 @@ chrome.runtime.onMessage.addListener(
     if(request.method === "launchMeeting"){
       window.location.replace("https://"+window.location.hostname+(window.location.pathname.replace('j', 'wc/join'))+window.location.search);
     }
-    if(request.method === "openGH"){
+    if(request.method === `openGH`){
       window.open("https://github.com/nadivgold/betterzoomchat");
     }
     else if(request.method === "none")
