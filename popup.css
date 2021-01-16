@@ -101,3 +101,7 @@ input:checked + .slider:before {
   width: auto;
   font-size: medium;
 }
+
+a {
+  color: #d88284;
+}

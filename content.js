@@ -114,6 +114,9 @@ chrome.runtime.onMessage.addListener(
     if(request.method === "launchMeeting"){
       window.location.replace("https://"+window.location.hostname+(window.location.pathname.replace('j', 'wc/join'))+window.location.search);
     }
+    if(request.method === "openGH"){
+      window.open("https://github.com/nadivgold/betterzoomchat");
+    }
     else if(request.method === "none")
       console.log('none selected');
     else {

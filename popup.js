@@ -45,6 +45,13 @@ document.addEventListener('DOMContentLoaded', function() {
       console.log('ffz Value is set to ' + ffzEmotes);
     });
   });
+  // Github Link
+  var ghLink = document.getElementById('github');
+  ghLink.addEventListener('click', () => {
+    chrome.tabs.query({active: true, currentWindow: true}, (tabs) => {
+      chrome.tabs.sendMessage(tabs[0].id, {method: `openGH`});
+    });
+  }, false);
   // Settings Dropdown
   var settingsDropdown = document.getElementById('set');
   settingsDropdown.addEventListener('click', () => {
