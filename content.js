@@ -86,6 +86,7 @@ var b = {
   'ppHop': 'https://cdn.betterttv.net/emote/5a9578d6dcf3205f57ba294f/1x',
   'ppOverheat': 'https://cdn.betterttv.net/emote/5b3e953a2c8a38720760c7f7/1x',
 }
+
 var f = {
   'Pog': 'https://cdn.frankerfacez.com/emoticon/210748/1',
   'OMEGALUL': 'https://cdn.frankerfacez.com/emoticon/128054/1',
@@ -129,7 +130,7 @@ chrome.runtime.onMessage.addListener(
   function(request, sender, sendResponse) {
     // debugger;
     if(request.method === "launchMeeting"){
-      window.location.replace("https://"+window.location.hostname+(window.location.pathname.replace('j', 'wc/join'))+window.location.search);
+      window.location.replace("https://"+window.location.hostname+(window.location.pathname.replace('j', 'wc/join')).split('#')[0]);
     }
     if(request.method === `openGH`){
       window.open("https://github.com/nadivgold/betterzoomchat");
@@ -164,7 +165,7 @@ chrome.runtime.onMessage.addListener(
               else if(bttv && (w in b)){
                 m = m.replace(w, `<img src=${b[w]}>`);
               }
-              else if(ffz && (w in b)){
+              else if(ffz && (w in f)){
                 m = m.replace(w, `<img src=${f[w]}>`);
               }
             }

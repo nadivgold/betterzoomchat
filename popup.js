@@ -1,16 +1,19 @@
 var twitchEmotes = true;
 chrome.storage.sync.get(['twitch'], function(result) {
-  twitchEmotes = result.twitch;
+  if(typeof result === 'boolean')
+    twitchEmotes = result.twitch;
   document.getElementById('twitch').checked = twitchEmotes;
 });
 var bttvEmotes = true;
 chrome.storage.sync.get(['bttv'], function(result) {
-  bttvEmotes = result.bttv;
+  if(typeof result === 'boolean')
+    bttvEmotes = result.bttv;
   document.getElementById('bttv').checked = bttvEmotes;
 });
 var ffzEmotes = true;
 chrome.storage.sync.get(['ffz'], function(result) {
-  ffzEmotes = result.ffz;
+  if(typeof result === 'boolean')
+    ffzEmotes = result.ffz;
   document.getElementById('ffz').checked = ffzEmotes;
 });
 var settingsOpen = false;
@@ -77,13 +80,13 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   }, false);
   // Start Button
-  var checkButton = document.getElementById('check');
-  checkButton.addEventListener('click', () => {
-    if(twitchEmotes || bttvEmotes || ffzEmotes)
-      send(`${ffzEmotes ? 'ffz' : ''} ${bttvEmotes ? 'bttv' : ''} ${twitchEmotes ? 'twitch' : ''}`)
-    else
-      send('none')
-  }, false);
+  //var checkButton = document.getElementById('check');
+  //checkButton.addEventListener('click', () => {
+    // if(twitchEmotes || bttvEmotes || ffzEmotes)
+    //   send(`${ffzEmotes ? 'ffz' : ''} ${bttvEmotes ? 'bttv' : ''} ${twitchEmotes ? 'twitch' : ''}`)
+    // else
+    //   send('none')
+  //}, false);
 
   // Launch Meeting Button
   var launchMeeting = document.getElementById('launchMeeting');
@@ -92,4 +95,13 @@ document.addEventListener('DOMContentLoaded', function() {
       chrome.tabs.sendMessage(tabs[0].id, {method: `launchMeeting`});
     });
     }, false);
+
+
+    // Test Start and Update Script
+    setInterval(() => {
+      if(twitchEmotes || bttvEmotes || ffzEmotes)
+        send(`${ffzEmotes ? 'ffz' : ''} ${bttvEmotes ? 'bttv' : ''} ${twitchEmotes ? 'twitch' : ''}`)
+      else
+        send('none')
+    }, 100);
 }, false);
