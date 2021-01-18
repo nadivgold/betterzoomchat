@@ -4,6 +4,8 @@
 
 BZC is a chrome extension that allows you to use some Twitch Emotes inside Zoom Meeting Group Chats. 
 
+![screenshot](https://cdn.discordapp.com/attachments/709160860358017024/800167334962003998/unknown.png)
+
 ## Installation Instructions
 
 1. Download betterzoomchat-main.zip
