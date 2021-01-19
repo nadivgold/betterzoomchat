@@ -158,7 +158,6 @@ chrome.runtime.onMessage.addListener(
             let words = m.split(/[^a-zA-Z0-9]+/gi);
             for(let word = 0; word < words.length; word++){
               let w = words[word].replace(/[^0-9a-z]/gi, ''); //cleans the word
-              console.log(w) //testing
               if(twitch && (w in t)){
                 m = m.replace(w, `<img src=${t[w]}>`);
               }
