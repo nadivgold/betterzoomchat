@@ -93,6 +93,7 @@ var b = {
   'modCheck': 'https://cdn.betterttv.net/emote/5d7eefb7c0652668c9e4d394/1x',
   'POGSLIDE': 'https://cdn.betterttv.net/emote/5aea37908f767c42ce1e0293/1x',
   'FeelsRainMan': 'https://cdn.betterttv.net/emote/57850b9df1bf2c1003a88644/1x',
+  'HOGGERS': 'https://cdn.frankerfacez.com/emoticon/269164/1',
   'WaitWhat': 'https://cdn.betterttv.net/emote/55cbeb8f8b9c49ef325bf738/1x',
   'TeaTime': 'https://cdn.betterttv.net/emote/56f6eb647ee3e8fc6e4fe48e/1x',
   'HAhaa': 'https://cdn.betterttv.net/emote/55f47f507f08be9f0a63ce37/1x',
@@ -109,7 +110,10 @@ var b = {
   'pikaOMG': 'https://cdn.betterttv.net/emote/5bec16e1c3cac7088d09bdd7/1x',
   'PepegaGun': 'https://cdn.betterttv.net/emote/5db4816f8b059b723dc1a58d/1x',
   'peepoComfy': 'https://cdn.betterttv.net/emote/5dbc173f27360247dd64e4ae/1x',
-  'peepoSprint': 'https://cdn.betterttv.net/emote/5c20a897fef84f19d3274cb0/1x'
+  'peepoSprint': 'https://cdn.betterttv.net/emote/5c20a897fef84f19d3274cb0/1x',
+  'DANKHACKERMANS': 'https://cdn.betterttv.net/emote/5e37903f61ff6b51e652837c/1x',
+  'BBoomer': 'https://cdn.betterttv.net/emote/5c447084f13c030e98f74f58/1x',
+  'ZZoomer': 'https://cdn.betterttv.net/emote/5d8b41c8d2458468c1f48d6e/1x'
 }
 
 var f = {
@@ -149,7 +153,11 @@ var f = {
   'FeelsGoodMan': 'https://cdn.frankerfacez.com/emoticon/109777/1',
   'monkaEyes': 'https://cdn.frankerfacez.com/emoticon/268204/1',
   'peepoHappy': 'https://cdn.frankerfacez.com/emoticon/228449/1',
-  'PeepoWeird': 'https://cdn.frankerfacez.com/emoticon/243682/1'
+  'PeepoWeird': 'https://cdn.frankerfacez.com/emoticon/243682/1',
+  'KKonaW': 'https://cdn.frankerfacez.com/emoticon/229486/1',
+  'KKop': 'https://cdn.frankerfacez.com/emoticon/375448/4',
+  '4Shrug': 'https://cdn.frankerfacez.com/emoticon/226912/1',
+  'KKapitalist': 'https://cdn.frankerfacez.com/emoticon/340801/1'
 }
 
 chrome.runtime.onMessage.addListener(
