@@ -26,6 +26,7 @@ button {
   outline: none;
   font-size: large;
   margin-left: 1%;
+  margin-bottom: 5px;
 }
 button.set_but{
   border-radius: 50%;
