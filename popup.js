@@ -66,8 +66,9 @@ document.addEventListener('DOMContentLoaded', function() {
     } else {
       document.getElementById('settings').style.display = 'none';
       document.getElementById('info').style.display = 'none';
-
     }
+    const settingsCog = document.getElementById('cog');
+    settingsCog.classList.toggle('rotated');
   }, false);
   // Start Button
   //var checkButton = document.getElementById('check');

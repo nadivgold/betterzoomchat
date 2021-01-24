@@ -13,7 +13,6 @@ header {
 img {
   height: 50%;
   width: 50%;
-  
 }
 
 button {
@@ -28,8 +27,8 @@ button {
   margin-left: 1%;
   margin-bottom: 5px;
 }
-button.set_but{
-  border-radius: 50%;
+button.set{
+  border-radius: 100%;
   margin-left: 3%;
 }
 .switch {
@@ -126,4 +125,29 @@ img.banner{
 }
 h1.text_style{
   font-size: medium;
+}
+
+svg {
+  text-align: center;
+  margin-top: 3px;
+  margin-left: 1px;
+  transition: all 0.5s;
+}
+
+.rotated {
+  margin-top: 3px;
+  margin-left: 1px;
+  transform: rotate(-120deg);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #fcfcfc; 
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background: #d88284; 
+  border-radius: 5px;
 }
