@@ -60,23 +60,13 @@ document.addEventListener('DOMContentLoaded', function() {
   settingsDropdown.addEventListener('click', () => {
     settingsOpen = !settingsOpen;
     if(settingsOpen){
-      settingsDropdown.innerHTML = "Settings △"
       document.getElementById('settings').style.display = 'block';
-    } else {
-      settingsDropdown.innerHTML = "Settings ▽"
-      document.getElementById('settings').style.display = 'none';
-    }
-  }, false);
-  // Info Dropdown
-  var infoDropdown = document.getElementById('help');
-  infoDropdown.addEventListener('click', () => {
-    infoOpen = !infoOpen;
-    if(infoOpen){
-      infoDropdown.innerHTML = "Info △"
       document.getElementById('info').style.display = 'block';
+
     } else {
-      infoDropdown.innerHTML = "Info ▽"
+      document.getElementById('settings').style.display = 'none';
       document.getElementById('info').style.display = 'none';
+
     }
   }, false);
   // Start Button

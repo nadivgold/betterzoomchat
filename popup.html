@@ -2,6 +2,8 @@
 <!doctype html>
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <title>Better Zoom Chat</title>
     <script src="popup.js"></script>
     <link rel="stylesheet" href="popup.css">
@@ -9,13 +11,12 @@
   </head>
   <body>
     <header>
-      <img src="banner.png">
-      <h1>Better Zoom Chat</h1>
+      <img class="banner" src="banner.png">
+      <h1 class="text_style">Better Zoom Chat</h1>
     </header>
-    <button id="launchMeeting">Launch Meeting</button>
-    <div class='dropdowns'>
-      <button id="set">Settings ▽</button>
-      <button id="help">Info ▽</button>
+    <div class="dropdowns">
+      <button id="launchMeeting">Launch Meeting</button>
+      <button id="set"> <span class="glyphicon">&#xe019;</span></button>
     </div>
     <div id="settings" style="display: none;">
       <p>Twitch Emotes</p>
