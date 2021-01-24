@@ -21,7 +21,7 @@ BZC is a chrome extension that allows you to use some Twitch Emotes inside Zoom 
 ![selectextension](https://i.imgur.com/oHFGAoP.png)
 
 ## How to Use
-1. This extension only works with the Zoom's web client. To make it easier to launch the web client, I recommend using the extension's 'Launch Meeting' button rather than the blue one that prompts to open the downloaded client.
+1. This extension only works with the Zoom's web client. To make it easier to launch the web client, I recommend using the extension's 'Launch Meeting' button rather than the blue one that prompts to open the downloaded client. If that does not work, click the links below the button and cancel the download. A new link to take you to the browser version should appear. Click that.
 2. If emotes don't show up, open and close the extension panel.  
 3. Since I added emotes individually, not all of them are available. The objects in `content.js` list all the currently supported emotes.
 
